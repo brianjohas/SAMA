@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Arrivals - SAMA FASHION</title>
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">SAMA FASHION</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">HOME</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link">CATEGORIES <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="shop.html?category=men">Men's Clothing</a>
+                            <a href="shop.html?category=women">Women's Clothing</a>
+                            <a href="shop.html?category=kids">Kids' Clothing</a>
+                            <a href="shop.html?category=accessories">Accessories</a>
+                            <a href="shop.html?category=footwear">Footwear</a>
+                        </div>
+                    </li>
+                    <li><a href="shop.html" class="nav-link">SHOP NOW</a></li>
+                    <li><a href="new-arrivals.html" class="nav-link active">NEW ARRIVALS</a></li>
+                    <li><a href="about.html" class="nav-link">ABOUT US</a></li>
+                    <li><a href="contact.html" class="nav-link">CONTACT US</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- New Arrivals Content -->
+    <section class="new-arrivals-section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Latest New Arrivals</h1>
+                <p>Check out the 10 newest products added to our collection</p>
+            </div>
+
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="men">Men</button>
+                <button class="filter-btn" data-category="women">Women</button>
+                <button class="filter-btn" data-category="kids">Kids</button>
+                <button class="filter-btn" data-category="accessories">Accessories</button>
+            </div>
+
+            <div class="products-grid" id="newArrivalsPageGrid">
+                <!-- Products loaded dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>SAMA FASHION is your ultimate destination for premium clothing and accessories.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SAMA FASHION. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
